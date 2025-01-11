@@ -3,9 +3,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import hero from "@/images/hero.png";
+import hero1 from "@/images/hero1.png";
 
-const EnhancedPhoto = () => {
+const EnhancedPhoto = ({ className }: { className?: string }) => {
   const circleColors = ["#00ff99"];
 
   const circleVariants = {
@@ -39,7 +39,7 @@ const EnhancedPhoto = () => {
   };
 
   return (
-    <div className="w-full h-full relative flex items-center justify-center">
+    <div className={`${className}w-full h-full relative flex items-center justify-center`}>
       <motion.div
         initial={{ opacity: 0 }}
         animate={{
@@ -58,7 +58,7 @@ const EnhancedPhoto = () => {
         >
           <div className="w-[250px] h-[250px] lg:w-[400px] lg:h-[420px] mix-blend-lighten overflow-hidden rounded-full">
             <Image
-              src={hero}
+              src={hero1}
               alt="heroImage"
               width={400}
               height={400}

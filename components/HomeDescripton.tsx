@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const HomeDescripton = () => {
   const [hasLoaded, setHasLoaded] = useState(false);
   const description =
-    "sAs a Software Engineer, I design and build innovative software solutions, solve complex problems, and ensure systems are scalable and user-friendly. From creating web apps to optimizing backend systems, I bridge the gap between technology and user needs.";
+    "sAs a software engineer, I create and develop cutting-edge software solutions, work through challenging issues, and make sure that systems are both scalable and intuitive. By developing web applications and optimizing backend systems, I help close the gap between technology and user requirements.";
   const { displayedText, isComplete } = useTypewriter(description, 30);
 
   useEffect(() => {

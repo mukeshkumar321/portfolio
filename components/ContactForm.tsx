@@ -107,8 +107,9 @@ const ContactForm = () => {
         Let&apos;s work together
       </h3>
       <p className="text-white/60 text-sm md:text-base">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil velit
-        vel saepe fugiat ex aperiam, totam quae et tenetur deleniti.
+        Collaboration is the cornerstone of innovation. Together, we can achieve
+        remarkable goals, turn ideas into reality, and create solutions that
+        leave a lasting impact.
       </p>
       <>
         {success ? (
