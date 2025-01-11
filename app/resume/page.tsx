@@ -24,7 +24,7 @@ export default function ResumePage() {
             defaultValue="experience"
             className="w-full flex flex-col md:flex-row gap-6 md:gap-10"
           >
-            <TabsList className="flex md:flex-col h-full bg-transparent md:w-64 gap-4">
+            <TabsList className="flex flex-col h-full bg-transparent md:w-64 gap-4">
               {tabMenu.map((item) => (
                 <TabsTrigger
                   key={item.value}
@@ -43,7 +43,7 @@ export default function ResumePage() {
                 <motion.h2
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
-                  className="text-2xl font-bold mb-6 text-lightSky"
+                  className="text-xl md:text-2xl font-bold mb-6 text-lightSky"
                 >
                   {tabContent.experience.title}
                 </motion.h2>
@@ -84,7 +84,7 @@ export default function ResumePage() {
                 <motion.h2
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
-                  className="text-2xl font-bold mb-6 text-lightSky"
+                  className="text-xl md:text-2xl font-bold mb-6 text-lightSky"
                 >
                   {tabContent.education.title}
                 </motion.h2>
@@ -127,7 +127,7 @@ export default function ResumePage() {
                 <motion.h2
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
-                  className="text-2xl font-bold mb-6 text-lightSky"
+                  className="text-xl md:text-2xl font-bold mb-6 text-lightSky"
                 >
                   {tabContent.skills.title}
                 </motion.h2>
@@ -161,7 +161,7 @@ export default function ResumePage() {
                 <motion.h2
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
-                  className="text-2xl font-bold mb-6 text-lightSky"
+                  className="text-xl md:text-2xl font-bold mb-6 text-lightSky"
                 >
                   {tabContent.about.title}
                 </motion.h2>
