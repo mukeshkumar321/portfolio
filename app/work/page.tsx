@@ -130,7 +130,7 @@ export default function ProjectSlider() {
                             <TooltipProvider>
                               <Tooltip>
                                 <TooltipTrigger asChild>
-                                  <Link href={project.liveUrl}>
+                                  <Link href={project.liveUrl} target="blank">
                                     <Button
                                       variant="outline"
                                       size="icon"
@@ -151,7 +151,7 @@ export default function ProjectSlider() {
                             <TooltipProvider>
                               <Tooltip>
                                 <TooltipTrigger asChild>
-                                  <Link href={project.githubUrl}>
+                                  <Link href={project.githubUrl} target="blank">
                                     <Button
                                       variant="outline"
                                       size="icon"
