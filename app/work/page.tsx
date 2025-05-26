@@ -30,36 +30,40 @@ import projectThree from "@/images/projectThree.png";
 const projects = [
   {
     id: "01",
-    title: "E-commerce Platform",
+    title: "Shopping Website",
     category: "Full Stack",
-    description:
-      "A modern e-commerce platform built with Next.js, featuring a responsive design, user authentication, and integration with a headless CMS for easy content management.",
-    stack: ["Next.js", "Tailwind CSS", "Strapi", "PostgreSQL"],
+    description: `Interactive shopping website with
+      responsive design for Daycor items,
+      including payment gateway and
+      Authorization with different providers.`,
+    stack: ["NextJS", "MongoDB", "SWR", "Styled Components", "Strapi"],
     image: projectOne,
     liveUrl: "https://example-ecommerce.com",
-    githubUrl: "https://github.com/example/ecommerce",
+    githubUrl: "https://github.com/",
   },
   {
     id: "02",
-    title: "Task Management App",
-    category: "Frontend",
-    description:
-      "A sleek task management application that helps users organize their daily activities, set priorities, and track progress. Built with React and Redux for state management.",
-    stack: ["React", "Redux", "Styled Components", "Firebase"],
+    title: "Bucket List",
+    category: "Full Stack",
+    description: `An interactive website in which user
+      can manage their dream list and details with
+      Authentication (Login & Sign Up) and CURD
+      operations.`,
+    stack: ["NextJS", "MongoDB", "SWR", "Styled Components", "Strapi"],
     image: projectTwo,
     liveUrl: "https://example-taskmanager.com",
-    githubUrl: "https://github.com/example/taskmanager",
+    githubUrl: "https://github.com/",
   },
   {
     id: "03",
-    title: "Weather Forecast Dashboard",
+    title: "Expense Management",
     category: "Frontend",
-    description:
-      "An interactive weather forecast dashboard that provides real-time weather information and 5-day forecasts for multiple locations. Utilizes a third-party weather API.",
-    stack: ["Vue.js", "Vuex", "Chart.js", "OpenWeatherMap API"],
+    description: `A mini project in which user can fill in
+      expenses and earnings in the Database.`,
+    stack: ["NextJS", "MongoDB", "CSS", "NodeJS", "Styled Components"],
     image: projectThree,
     liveUrl: "https://example-weatherapp.com",
-    githubUrl: "https://github.com/example/weatherapp",
+    githubUrl: "https://github.com/",
   },
 ];
 
@@ -105,7 +109,7 @@ export default function ProjectSlider() {
                             {project?.id}
                           </h2>
                           <h3 className="text-xl md:text-3xl font-bold leading-none text-white group-hover:text-lightSky hoverEffect">
-                            {project?.category} project
+                            {project?.title}
                           </h3>
                           <p className="text-white/60 text-sm md:text-base leading-6 md:leading-normal">
                             {project?.description}

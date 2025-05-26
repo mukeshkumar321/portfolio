@@ -16,7 +16,7 @@ export const tabContent = {
         company: "Sapiens India",
         period: "2022 - Present",
         description:
-          "Led the development of multiple React-based web applications, improving performance by 40%. Mentored junior developers and implemented best practices for code quality.",
+          "Led the development of multiple React-based web applications, improving performance by 40%. Mentored junior developers and implemented best practices for code quality. Collaborated closely with cross-functional teams to deliver scalable and maintainable solutions, and contributed to architectural decisions for new projects.",
         highlights: ["React", "Next.js", "Tailwind CSS", "JavaScript", "TypeScript"],
       },
       {
@@ -24,7 +24,7 @@ export const tabContent = {
         company: " Indian Institute of Technology Bhubaneswar",
         period: "2020 - 2022",
         description:
-          "Handling the lab classes of the students guiding and helping them in their assignments and projects.",
+          "Handled lab classes, guiding students through assignments and projects. Provided one-on-one mentorship, clarified complex concepts, and assisted in curriculum development to enhance student learning outcomes.",
         highlights: ["C/C++ Language", "Data Structures", "Algorithms"],
       },
     ],
@@ -37,7 +37,7 @@ export const tabContent = {
         institution: "Indian Institute of Technology Bhubaneswar",
         period: "2020 - 2022",
         description:
-          "Specialized in Software Engineering and Artificial Intelligence. Graduated with honors.",
+          "Specialized in Software Engineering and Artificial Intelligence. Graduated with honors, focusing on advanced algorithms, distributed systems, and machine learning. Completed a thesis on scalable web architectures.",
         achievements: ["7.6 GPA", "Research Publication", "Dean's List"],
       },
       {
@@ -45,7 +45,7 @@ export const tabContent = {
         institution: "Bundeland University",
         period: "2014 - 2018",
         description:
-          "Foundation in computer science principles, data structures, and algorithms.",
+          "Built a strong foundation in computer science principles, data structures, and algorithms. Participated in coding competitions and led the university's programming club.",
         achievements: ["Academic Excellence Award", "Programming Club Lead"],
       },
     ],
@@ -56,38 +56,36 @@ export const tabContent = {
       {
         name: "Frontend Development",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, distinctio. Quas fugiat nesciunt ipsum. Voluptatem inventore iste labore, similique quod laudantium rerum dolor, impedit voluptas distinctio praesentium quibusdam veniam tempore. Laudantium repellendus possimus adipisci maxime.",
+          "Experienced in building responsive, accessible, and high-performance user interfaces using modern frameworks and libraries. Adept at translating design mockups into pixel-perfect web applications and optimizing for user experience.",
         skills: [
           "React",
           "Next.js",
           "TypeScript",
           "Tailwind CSS",
-          "Framer Motion",
         ],
       },
       {
         name: "Backend Development",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, distinctio. Quas fugiat nesciunt ipsum. Voluptatem inventore iste labore, similique quod laudantium rerum dolor, impedit voluptas distinctio praesentium quibusdam veniam tempore. Laudantium repellendus possimus adipisci maxime.",
-        skills: ["Node.js", "Express", "Python", "PostgreSQL", "MongoDB"],
+          "Proficient in designing and implementing RESTful APIs, server-side logic, and database schemas. Skilled in building scalable backend systems and integrating third-party services.",
+        skills: ["Node.js", "Express", "Python", "MongoDB"],
       },
       {
         name: "Tools & Others",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, distinctio. Quas fugiat nesciunt ipsum. Voluptatem inventore iste labore, similique quod laudantium rerum dolor, impedit voluptas distinctio praesentium quibusdam veniam tempore. Laudantium repellendus possimus adipisci maxime.",
+          "Familiar with a wide range of development tools and methodologies, including version control, containerization, cloud deployment, and agile practices. Committed to continuous integration and delivery for efficient development workflows.",
         skills: ["Git", "Docker", "AWS", "CI/CD", "Agile Methodologies"],
       },
     ],
   },
   about: {
     title: "About Me",
-    bio: "Passionate software developer with over 5 years of experience in building modern web applications. Committed to writing clean, maintainable code and staying current with emerging technologies. Strong advocate for user-centric design and accessibility.",
+    bio: "Passionate software developer with over 3+ years of experience in building modern web applications. Committed to writing clean, maintainable code and staying current with emerging technologies. Strong advocate for user-centric design and accessibility.",
     interests: [
       "Open Source Contributing",
-      "Tech Blogging",
-      "UI/UX Design",
+      "Web Development",
       "Machine Learning",
     ],
-    languages: ["English (Native)", "Spanish (Intermediate)", "German (Basic)"],
+    languages: ["Hindi (Native)", "English (Intermediate)"],
   },
 };

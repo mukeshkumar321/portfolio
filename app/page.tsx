@@ -19,7 +19,7 @@ export default function Home() {
               Mukesh Kumar
             </h1>
           </div>
-          <div className="w-full md:h-[170px] md:relative">
+          <div className="w-full md:h-[190px] md:relative">
             <HomeDescripton />
           </div>
           <div className="flex flex-col md:flex-row items-center gap-8">

@@ -6,8 +6,13 @@ import { motion } from "framer-motion";
 
 const HomeDescripton = () => {
   const [hasLoaded, setHasLoaded] = useState(false);
-  const description =
-    "sAs a software engineer, I create and develop cutting-edge software solutions, work through challenging issues, and make sure that systems are both scalable and intuitive. By developing web applications and optimizing backend systems, I help close the gap between technology and user requirements.";
+
+  const description = `sA full-stack developer with hands-on experience in developing, unit
+                      testing, and documenting various web application features. Skilled in
+                      implementing authentication systems and building configurable,
+                      reusable components across multiple portals using technologies like
+                      TypeScript, ReactJS, Next.js, and Node.js.`;
+
   const { displayedText, isComplete } = useTypewriter(description, 30);
 
   useEffect(() => {
