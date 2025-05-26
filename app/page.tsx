@@ -24,8 +24,8 @@ export default function Home() {
           </div>
           <div className="flex flex-col md:flex-row items-center gap-8">
             <a
-              href="/resume.pdf"
-              download="resume.pdf"
+              href="/myResume.pdf"
+              download="myResume.pdf"
               className="bg-transparent rounded-full border border-lightSky/50 text-lightSky hover:bg-hoverColor hover:text-black hoverEffect px-4 py-2 flex items-center"
             >
               Download CV <Download className="ml-2" />
