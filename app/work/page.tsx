@@ -38,8 +38,8 @@ const projects = [
       Authorization with different providers.`,
     stack: ["NextJS", "MongoDB", "SWR", "Styled Components", "Strapi"],
     image: projectOne,
-    liveUrl: "https://example-ecommerce.com",
-    githubUrl: "https://github.com/",
+    liveUrl: "https://shopping-website-beige.vercel.app/",
+    githubUrl: "https://github.com/mukeshkumar321/Shopping-Website",
   },
   {
     id: "02",
@@ -51,8 +51,8 @@ const projects = [
       operations.`,
     stack: ["NextJS", "MongoDB", "SWR", "Styled Components", "Strapi"],
     image: projectTwo,
-    liveUrl: "https://example-taskmanager.com",
-    githubUrl: "https://github.com/",
+    liveUrl: "https://bucket-list-azure.vercel.app/",
+    githubUrl: "https://github.com/mukeshkumar321/Bucket-List",
   },
   {
     id: "03",
@@ -62,8 +62,8 @@ const projects = [
       expenses and earnings in the Database.`,
     stack: ["NextJS", "MongoDB", "CSS", "NodeJS", "Styled Components"],
     image: projectThree,
-    liveUrl: "https://example-weatherapp.com",
-    githubUrl: "https://github.com/",
+    liveUrl: "https://expense-management-orcin.vercel.app/",
+    githubUrl: "https://github.com/mukeshkumar321/Expense-Management",
   },
 ];
 
